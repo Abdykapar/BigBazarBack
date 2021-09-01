@@ -267,7 +267,7 @@ export default {
             return this.$store.getters['products/newProducts']
         },
         filteredProducts () {
-            let res = this.products;
+            let res = this.products
             if (this.categoryId)
                 res =  res.filter(i => i.category._id === this.categoryId)
             if (this.price.start > -1) {
