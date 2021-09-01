@@ -1,0 +1,144 @@
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+
+:root {
+    --theme-general-color: #818181;
+    /* theme gray color ok*/
+}
+
+:root {
+    --theme-primary-color: #f1e63d;
+    /* theme primary color ok*/
+}
+
+:root {
+    --theme-secondary-color: #113982;
+    /* theme secondary color ok*/
+}
+
+:root {
+    --theme-white-color: #fff;
+    /* theme white font color ok*/
+}
+
+:root {
+    --theme-light-color: #f8f8f8;
+    /* theme light gray color */
+}
+
+:root {
+    --theme-gray-color: #e7e7e8;
+    /* theme gray color ok*/
+}
+
+:root {
+    --theme-dark-color: #1a1c1f;
+    /* theme dark color ok*/
+}
+
+:root {
+    --theme-extra-color: #f43838;
+    /* theme extra color ok*/
+}
+
+:root {
+    --theme-extra1-color: #0f1f48;
+    /* theme extra1 color ok*/
+}
+
+
+/*==================================
+Font Variable
+==================================*/
+
+:root {
+    --theme-general-font: 'Jost', sans-serif;
+    /* Font use for normal text and general text ok*/
+}
+
+:root {
+    --theme-hiperlink-font: 'Jost', sans-serif;
+    /* Font use for normal text and general text ok*/
+}
+
+:root {
+    --theme-highlight-font: 'Jost', sans-serif;
+    /* Font used in title or special area ok*/
+}
+
+:root {
+    --theme-extra-font: 'Jost', sans-serif;
+    /* Font use for Extra1 text ok*/
+}
+
+body,
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a,
+a:hover {
+    color: var(--theme-secondary-color);
+}
+
+.middle-header [class*="product-search-"] .form-inline {
+    border: 2px solid var(--theme-secondary-color);
+}
+
+.ecommerce-header .refresh-view a.top-quantity span,
+.ecommerce-header .cart-view a.top-quantity span {
+    color: var(--theme-dark-color);
+}
+
+.product-search-pill form button {
+    background-color: var(--theme-secondary-color);
+}
+
+[class*="product-search-"] .form-inline.search-pill-shape {
+    background-color: var(--theme-white-color);
+}
+
+.nav-top-right .owl-nav .nav-btn {
+    color: var(--theme-secondary-color);
+}
+
+.slide-title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.slider-content {
+    padding: 150px 0 150px 50px;
+    width: 480px;
+}
+
+.btn-cart-wishlist .cart-button .button.add_to_cart_button {
+    border: 2px solid var(--theme-primary-color);
+    background-color: var(--theme-primary-color);
+}
+
+.tab-active-pill.woocommerce-tabs .nav-pills .nav-link:hover,
+.tab-active-pill.woocommerce-tabs .nav-pills .nav-link.active {
+    background-color: var(--theme-primary-color);
+}
+
+.categories-menu ul.menu li a:hover {
+    color: var(--theme-secondary-color);
+}
+
+@media screen and (max-width: 991px) {
+    .slider-content {
+        padding: 100px 0 100px 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .slider-content {
+        padding: 50px 0 50px 20px;
+        width: auto;
+    }
+}
